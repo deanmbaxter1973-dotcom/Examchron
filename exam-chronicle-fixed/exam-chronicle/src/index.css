@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*,*::before,*::after{box-sizing:border-box}
+html,body,#root{min-height:100vh;margin:0;padding:0}
+body{-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.scrollbar-hide::-webkit-scrollbar{display:none}
+.scrollbar-hide{-ms-overflow-style:none;scrollbar-width:none}
